@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,7 +8,42 @@
   <link rel="stylesheet" href="style.css">
   <title>Document</title>
 </head>
-<body>
-  
+
+<body class="wheat">
+  <header class="gray">
+
+    <nav class="orange">
+
+      <ul class="purple">
+        <li class="coral"></li>
+        <li class="coral"></li>
+        <li class="coral"></li>
+        <li class="coral"></li>
+      </ul>
+    </nav>
+  </header>
+  <input type="checkbox" hidden id="switch">
+  <div class="yellow">
+    <label for="switch"></label>
+  </div>
+
+  <div class="green">
+    <label for="switch"></label>
+
+  </div>
+
+  <footer class="blue">
+
+    <ul class="chocolate">
+      <li class="aquamarine"></li>
+      <li class="aquamarine"></li>
+      <li class="aquamarine"></li>
+    </ul>
+  </footer>
+
+  <script>
+    document.querySelectorAll("[class]").forEach(el => el.style.background = el.className)
+  </script>
 </body>
+
 </html>
